@@ -2,6 +2,8 @@
 
 # scripting
 
+LEARNING FROM https://spoken-tutorial.org/watch/BASH/Introduction+to+BASH+Shell+Scripting/English/
+
 ---
 #To make a file executable use .
 chmod +x <file name>
