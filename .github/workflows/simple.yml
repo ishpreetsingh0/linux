@@ -1,1 +1,11 @@
-
+name: Env Variables
+on: push
+env:
+  WF_ENV: ${{ secrets.WF_ENV }}
+jobs:
+  log-env:
+    runs-on: ubuntu-latest
+    steps:
+      - name: From secrets
+      run:
+        echo "WF_ENV: ${WF_ENV}"
