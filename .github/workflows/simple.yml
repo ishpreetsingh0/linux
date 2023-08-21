@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: From secrets
-      run:
-        echo "WF_ENV: ${WF_ENV}"
+        run:
+          echo "WF_ENV: ${WF_ENV}"
