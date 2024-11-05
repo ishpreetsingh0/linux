@@ -1,0 +1,8 @@
+Kernet is heart of Linux OS.
+Scheduling running programs, managing hardware and managing memory.
+what runs within the kernel: device driver and networking.
+it manages security of system and supports user programs.
+process: each process has its own a virtual memory spcace, a security context, a state, a process id number.
+  user process(input from terminal is called foreground process), thread thread and daemon process. command <ps> is used for it, <ps aux> include all users with terminal process.
+  kernel process is in [] square brackets
+
