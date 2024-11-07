@@ -1,0 +1,8 @@
+File in linux are used in many ways one of that are I/O operations.
+Types of files are:
+1. Regular files
+2. Directories/Folders
+3. Symbolic links: special files which are point by name by some other files.
+4. Character Devices and block devices
+5. Name pipes and sockets
+File I/O and Device I/O is a similar as possible.
