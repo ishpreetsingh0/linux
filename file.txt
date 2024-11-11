@@ -6,3 +6,7 @@ Types of files are:
 4. Character Devices and block devices
 5. Name pipes and sockets
 File I/O and Device I/O is a similar as possible.
+
+File Organisation: All file system are organised into one unified hierarchy of directorires and files.
+all files are organised into a unified naming scheme.
+top directory is root dir (/). unfder root we have etc, usr, lib, bin, home, tmp.
