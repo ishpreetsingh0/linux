@@ -1,0 +1,7 @@
+In Rhel we use package based model software management to dowmload as a unit/model rather than as an image to install.
+easy to remove/re-install and upgrage to manage dependencies. 
+rpm package management. 
+1. archive of files to be installed.
+2. scripts that can be run
+3. info of package.
+yum is used to install and update packages. 
