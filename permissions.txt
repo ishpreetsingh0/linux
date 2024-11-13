@@ -1,0 +1,18 @@
+File permissions: a simple system that allows us to manage files.
+every file is labled as set of permissions. 
+-rwxr-xr-x.1rootroot
+directory, user, groups.
+level of access permissions of files :  ie read, write and execute.
+user-group-others
+xxx-xxx-xxx
+drwxr-xr-r
+
+<file permissions> <user> <group>
+
+if you execute access on a directory you can access the files. if you have write permission on directory you can create/delete files. 
+linux permission only apply the directory they are set on.
+
+change permissions:
+chmod (u,g or o)
+chown
+chgrp
