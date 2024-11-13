@@ -1,0 +1,16 @@
+Linux is a multi user syatem.
+class of users, 
+1. Regular users : human beings that use system
+2. System users : non-priveledge users, which are used by programs. apache web server, user http, mysql database, 
+3. Superuser : root user for all super privelages to work.
+
+A group is set of users, each user has one priamry group. regular user has same name as that of user under rhel policy.
+a group can be granted access to particular files or directories. 
+each user can also be in supplimentary groups.
+
+useradd <username>
+passwd <username> to add a password to that user.
+groupadd <groupname>
+
+file system
+A simple system that allows us to manage files. 
