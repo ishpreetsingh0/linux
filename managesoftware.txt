@@ -5,3 +5,16 @@ rpm package management.
 2. scripts that can be run
 3. info of package.
 yum is used to install and update packages. 
+
+>>subscription-manager register
+>>username:
+>>password
+>>subscription-manager attach
+>>yum repolist
+>>yum-config-manager --disable rhel-sap-for-rhel-7-server-rpms (to disable this)
+>>yum update <package>
+>>yum remove <package>
+>>yum list
+>>yum list installed
+>>yum info <package>
+>>yum search <kernel>
