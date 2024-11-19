@@ -1,0 +1,33 @@
+Configuring networks:
+en* : is a physical ethernet interface
+wl* : is a physical WLAN interface,  wireless wifi.
+ww*: is a physical WWAN interface , cellphone card which has network card, laptop.
+eth*: is a Virtual interface (VMss and cloud instance).
+lo: loop back interface for machine to talk to itself.
+>>ip addr show
+
+setting up networking:
+1. IP address.
+2. net mask of the subnet it's attachet to.
+3. IP address of default router.
+4. IP address of DNS nameserver.
+
+3 components to manage network
+1. Network manager
+2. nmcli command
+3. test configuration files
+>>nmcli con show
+>>nmcli dev show
+>>cd /etc/sysconfig/network-scripts/
+>>nmcli con reload
+>>nmcli con show '<connection name>'
+>>nmcli con mod ipv4.addresses '10.0.0.2/24'
+
+ipv4.addresses: IPv4 address and CIDR netmask prefix.
+ipv4.gateway: IPv4 default gateway for routing.
+ipv4.dns: NS name server's IPv4 address.
+
+>>nmcli con up '<name>'
+>>nmcli dev disconnect '<name>'
+>>ping www.redhat.com
+>>traceroute www.redhat.com
