@@ -1,1 +1,13 @@
-Boot process : firmware validates how works
+Boot process : firmware(validates how works)->bootloader(grub2)->linux kernel. 
+RHEL7 uses boot loader is called GRUB2
+the linux kernel finishes starting up and takes over the system.
+PID1 is initial process which launches others process.
+RHEL7 uses systemd as a PID process.
+systemd thinks of daemons as individual services.
+systemd comes with a tool called systemctl
+>>systemctl status
+>>systemctl stop httpd.service
+>>systemctl status httpd.service
+>>systemctl start httpd.service 
+>>systemctl disable httpd.service
+>>systemctl enable httpd.service
