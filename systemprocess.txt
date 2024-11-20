@@ -16,3 +16,15 @@ systemd comes with a tool called systemctl
 >>systemctl isolate multi-user.target
 >>systemctl list-dependencies multi-user.target
 >>systemctl list-dependencies graphical.target
+
+Help systems
+1. man Pages
+2. GNU info
+3. GNOME
+
+>>man 1 ls
+>>man passwd
+>>man -k passwd
+>>man man
+>>info ls
+>>redhat-support-tool
